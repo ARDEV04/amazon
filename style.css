@@ -1,0 +1,325 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color:#00050d ; */
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+main{
+    width: 100%;
+    min-height:2000px ;
+}
+div{
+    display: block;
+}
+/*---------------header--------------*/
+.main1{
+    width: 100%;
+    min-height: 48px;
+    background-color: #00050d;
+}
+.header{
+    width: 60%;
+    background-color:#00050d ;
+    display: flex;
+    margin: 0% 22%;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    border-radius: 10px;
+    z-index: 1;
+}
+.h1{
+    flex-grow: 2;
+}
+.h1 img{
+    height: 19.5px;
+}
+.h2{
+    color:  #aaa;
+    flex-grow: 1;
+}
+.h2 ul{
+    
+    display:flex;
+}
+.h2 li{
+    list-style: none;
+    flex-grow: 1;
+}
+.h2 a{
+    color: #aaa;
+    text-decoration: none;
+}
+.h3{
+    flex-grow: 1;
+}
+.h4{
+    color:  #aaa;
+    flex-grow: 1;
+}
+.h5{
+    color: #aaa;
+    flex-grow: 1;
+}
+.h6{
+    
+    margin-right: 0;
+    flex-grow: 0;
+}
+.h6 img{
+    height: 30px;
+}
+/*-----------main-------------*/
+.main2{
+    width: 100%;
+    min-height: 575px;
+    position: relative;
+    z-index: 0;
+}
+.main2 .main{
+    width: 100%;
+    min-height: 575px;
+    background-image: linear-gradient( to right, #000 40%, transparent 58% ),url(main1.jpg);
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main2 .main .m1{
+    width: 648px;
+    min-height: 350px;
+    position: absolute;
+    inset: 10% 0 10% 5%;
+    color: #ffffff;
+}
+.main2 .main .m1 .text1 h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 350;
+    font-size: 45px;
+    padding-bottom: 25px;
+}
+.main2 .main .m1 .text2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.main2 .main .m1 .text3 button{
+    font-size: 16px;
+    font-weight: 350;
+    padding: 14px 60px;
+    background-color: #0f79a6;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+/*-----------------*/
+.main3{
+    width: 100%;
+    min-height: 575px;
+    position: relative;
+    z-index: 0;
+}
+.main3 .main3_1{
+    width: 100%;
+    min-height: 575px;
+    background-image: linear-gradient(to left,#000 45%,transparent 58%),url(main2.jpg);
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main3 .main3_2{
+    width: 648px;
+    min-height: 350px;
+    color: #ffffff;
+    position: absolute;
+    top: 20%;
+    right: 7%;
+}
+.main3 .main3_2 h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+.main3 .main3_2 p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.main3 .main3_2 button{
+    font-size: 16px;
+    font-weight: 350;
+    padding: 15px 95px;
+    background-color: #0f79a6;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+}
+/*----------------------main4-------------*/
+.main4{
+    width: 100%;
+    min-height: 575px;
+    display: flex;
+}
+.main4 .one{
+    width: 50%;
+    min-height: 575px;
+    padding: 100px 0 0 50px;
+}
+.main4 .one h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+.main4 .one p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.main4 .two{
+    width: 50%;
+    min-height: 575px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    justify-content: center;
+}
+.main4 .two .items img{
+    height: 144px;
+    width: 200px;
+    background-color: #0f79a6;
+    margin: 6px;
+    background-position: center;
+    background-size: contain;
+    transition: all 0.3s;
+}
+/*---------------------main5-----------------------------*/
+.main5{
+    width: 100%;
+    min-height: 575px;
+    position: relative;
+    z-index: 0;
+}
+.main5 .box1{
+    width: 100%;
+    min-height: 575px;
+    background-image: url(main4.jpg);
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main5 .box2{
+    width: 648px;
+    min-height: 350px;
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    color: #ffffff;
+}
+.main5 .box2 h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+.main5 .box2 p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.main5 .box2 button{
+    font-size: 16px;
+    font-weight: 350;
+    padding: 15px 95px;
+    background-color: #0f79a6;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+}
+/*-----------------------main6---------------*/
+.main6{
+    width: 100%;
+    min-height: 575px;
+    position: relative;
+    z-index: 0;
+
+}
+.main6 .item1{
+    width: 100%;
+    min-height: 575px ;
+    background-image: url(mian5.jpg);
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat ;
+
+}
+.main6 .item2{
+
+    width: 648px;
+    min-height: 350px;
+    color: #ffffff;
+    position: absolute;
+    top: 15%;
+    left: 7%;
+}
+.main6 .item2 h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+.main6 .item2 p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.main6 .item2 button{
+    font-size: 16px;
+    font-weight: 350;
+    padding: 15px 95px;
+    background-color: #0f79a6;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+}
+/*-----------------footer-------*/
+.footer{
+    width: 100%;
+    min-height: 150px;
+    background-color: #222222;
+    padding: 30px;
+    text-align: center;
+}
+.footer .two{
+    min-height: 25px;
+    align-items: center;
+    margin: 0 35%;
+    
+}
+.footer .two ul{
+    display: flex;
+    
+}
+.footer .two ul li{
+    list-style: none;
+    padding: 0 15px;
+}
+.footer .two ul li a{
+    text-decoration: none;
+    color: #0f79a6;
+}
+.footer .three{
+    font-weight: 300;
+    padding: 10px 0 5px 0;
+    color: #949494;
+}
